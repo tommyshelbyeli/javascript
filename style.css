@@ -1,7 +1,21 @@
 :root{
-     --cor-de-fundo: #1e1e1e;
-     --vermelho:#ff5757; 
-     --botao-ativado:#3a3756;
-     --botao-inativado:rgba(58, 55, 94,0.5);
-     --texto-fundo: rgba(58, 55, 94, 0.3);
+    --cor-de-fundo: #5a00ea;
+    --verde: #6fff57;
+    --botao-ativado: #63A8DB;
+    --botao-inativado: #6963DB;
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+}   
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: white;
+    font-family: "Anta", sans-serif;
 }
+
+.botao{
+    background-color: var(--botao-inativado);
+    color: white;
+}
+
+
+
